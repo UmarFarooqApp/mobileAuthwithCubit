@@ -56,7 +56,8 @@ class MyApp extends StatelessWidget {
   }
 }
 class splasScreen extends StatefulWidget {
-  const splasScreen({Key? key}) : super(key: key);
+  int a=0 ,b=0,c=0;
+   splasScreen({Key? key}) : super(key: key);
 
   @override
   _splasScreenState createState() => _splasScreenState();
